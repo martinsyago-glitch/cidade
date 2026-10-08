@@ -1,0 +1,132 @@
+p {
+    font-family: Arial, sans-serif;
+    color: #e9e9e9;
+    line-height: 1.6;
+}
+
+.destaque {
+    color: #e9e9e9;
+    font-weight: bold;
+}
+
+#titulo-principal {
+    text-align: center;
+    color: #ff2929;
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+
+section p {
+    font-style: italic;
+    color: #e9e9e9;
+}
+
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#e9e9e9;
+}
+
+button:hover {
+    background-color: #000000;
+    color: white;
+    border: 2px rgb(185, 185, 185);
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+input[type="email"] {
+    border: 2px solid #cecece;
+    background-color: #000000;
+    color: #e9e9e9;
+}
+input{
+    border-radius:2px;
+    background-color: #000000;
+    color: #e9e9e9;
+}
+button[type="button"]{
+    margin-left:10px;
+
+
+
+}
+
+.paragrafo-especial.destaque {
+    font-size: 1.2em;
+    background-color: #f9e79f;
+}
+body{
+
+    background-color: #000000;
+}
+.formulario{
+    background-color: #5a5a5a;
+    height: 25vh;           
+    display: flex;           
+    justify-content: center;
+    align-items: center;     
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 5px;
+    height: 300px;
+}
+h3{
+    color:#e9e9e9;
+
+}
+ul>li{
+    color:#e9e9e9;
+
+
+}
+html{
+    scroll-behavior: smooth;
+}
+#botao-acao:hover{
+    color: #e9e9e9;
+    background-color: #000000;
+    
+}
+img{
+    height:500px;
+    width:700px;
+    border:5px solid white;
+    padding:6px;
+    justify-content: center;
+    
+}
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+a{
+    color:#866f6f;
+    
+}
+a:hover{
+    color:#95cfd1;
+
+
+}
+p{
+    margin-left: 10px;
+
+}
+span{
+    color:rgb(73, 102, 102);
+}
+
+header {
+    background-color: #1a1a1a; 
+    min-height: 80px;
+    margin-top: 0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-bottom: 2px solid #333333;
+}
